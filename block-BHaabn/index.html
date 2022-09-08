@@ -1,0 +1,59 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b52935af57.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="container header">
+            <div class="brand">AltCampus</div>
+            <nav class="link">
+                <a href="heading">HOME</a>
+                <a href="gallery">GALLERY</a>
+                <a href="#">ABOUT</a>
+            </nav>
+        </section>
+    </header>
+    <section class="gallery">
+        <div class="container">
+            <h1>GALLERY</h1>
+            <div class="flex">
+                    <div class="img"><img src="./assets/01.png" alt="pic1"></div>
+                    <div class="img"><img src="./assets/02.png" alt="pic2"></div>
+                    <div class="img"><img src="./assets/03.png" alt="pic3"></div>
+                    <div class="img"><img src="./assets/04.png" alt="pic4"></div>
+                    <div class="img"><img src="./assets/05.png" alt="pic5"></div>
+                    <div class="img"><img src="./assets/06.png" alt="pic6"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="container">
+            <div class="content">
+        <div class="copy">&copy;AltCampus</div>
+        <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div>
+    </section>
+    </footer>
+
+</body>
+
+</html>
